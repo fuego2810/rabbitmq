@@ -37,6 +37,7 @@ $ pip install pika
 ---
 ### Ответ:
 ![Задание 2](img/2.1rabbit.png)
+---
 ![Задание 2](img/2.2rabbit.png)
 
 ---
@@ -81,13 +82,15 @@ $ rabbitmqadmin get queue='hello'
 ---
 #### Вывод команды rabbitmqctl cluster_status на каждой ноде
 ![Задание 3](img/statusnew1.png)
+---
 ![Задание 3](img/statusnew2.png)
 --
 #### Сообщения, полученные consumer.py в терминале.
 ![Задание 3](img/3.2rabbit.png)
 ---
-####Проверка отказоустойчивости HA при отключении 1 ноды
+#### Проверка отказоустойчивости HA при отключении 1 ноды
 ![Задание 3](img/node2status_when1off.png)
+---
 ![Задание 3](img/node2_consumer.png)
 
 ---
